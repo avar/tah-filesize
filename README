@@ -1,0 +1,4 @@
+To generate the map, do:
+
+    perl bin/parse-filesize.pl filesizes.dat > tile-sizes.dat
+    perl bin/fancy-graphics.pl tile-sizes.dat > osm-heatmap.png
