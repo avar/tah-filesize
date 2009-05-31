@@ -26,7 +26,7 @@ sub heatmap {
         }
         push @rgb => $y * 255;
     }
-    @rgb;
+    map { int } @rgb;
 }
 
 sub dec2hex {
